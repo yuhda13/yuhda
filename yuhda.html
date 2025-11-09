@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Z2n Wedding Invitation</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 font-serif">
+
+  <!-- Hero Section -->
+  <section class="h-screen bg-cover bg-center flex flex-col justify-center items-center text-white" style="background-image: url('https://images.unsplash.com/photo-1522673607200-164d3b6cbd74');">
+    <div class="bg-black bg-opacity-50 p-10 rounded-2xl text-center">
+      <h1 class="text-5xl font-bold mb-4">The Wedding of</h1>
+      <h2 class="text-4xl font-semibold mb-2">YUHDA DAN THELANNY</h2>
+      <p class="text-lg mb-4">Sabtu, 5 Juli 2032</p>
+      <a href="#detail" class="bg-white text-black px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Lihat Undangan</a>
+    </div>
+  </section>
+
+  <!-- Detail Section -->
+  <section id="detail" class="py-16 text-center">
+    <h2 class="text-3xl font-bold mb-6 text-gray-800">Assalamu’alaikum Warahmatullahi Wabarakatuh</h2>
+    <p class="text-gray-600 max-w-2xl mx-auto mb-10">
+      Dengan penuh rasa syukur dan kebahagiaan, kami mengundang Bapak/Ibu/Saudara/i untuk hadir pada acara pernikahan kami:
+    </p>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-white shadow-md rounded-xl p-6">
+        <h3 class="text-2xl font-semibold mb-2">INTAN THELANNY</h3>
+        <p class="text-gray-500">Putri dari Bapak Ade & Ibu Intan</p>
+      </div>
+      <div class="bg-white shadow-md rounded-xl p-6">
+        <h3 class="text-2xl font-semibold mb-2">M YUHDA AZIS PRATAMA</h3>
+        <p class="text-gray-500">Putra dari Bapak Ivan & Ibu Ika</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Akad & Resepsi -->
+  <section class="bg-blue-50 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10 text-gray-800">Waktu & Tempat</h2>
+    <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <div class="bg-white p-6 shadow-lg rounded-xl text-center">
+        <h3 class="text-2xl font-semibold mb-2">Akad Nikah</h3>
+        <p class="text-gray-600 mb-2">Sabtu, 5 Juli 2032</p>
+        <p class="text-gray-600">Pukul 09.00 WIB</p>
+        <p class="text-gray-500 mt-3">Masjid Istiqlal, Jakarta</p>
+      </div>
+      <div class="bg-white p-6 shadow-lg rounded-xl text-center">
+        <h3 class="text-2xl font-semibold mb-2">Resepsi</h3>
+        <p class="text-gray-600 mb-2">Sabtu, 5 Juli 2032</p>
+        <p class="text-gray-600">Pukul 11.00 – 15.00 WIB</p>
+        <p class="text-gray-500 mt-3">Gedung Serbaguna Z2N, Jakarta</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeri -->
+  <section class="py-16 text-center">
+    <h2 class="text-3xl font-bold mb-10 text-gray-800">Galeri Kenangan</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+      <img src="gambaryuhda.jpg" class="rounded-xl shadow-lg" alt="foto 1">
+      <img src="gambaryuhda1.jpg" class="rounded-xl shadow-lg" alt="foto 2">
+      <img src="gambaryuhda2.jpg" class="rounded-xl shadow-lg" alt="foto 3">
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section class="bg-blue-600 text-white py-16">
+    <div class="max-w-2xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Konfirmasi Kehadiran</h2>
+      <p class="mb-6">Kami sangat berbahagia apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+      <form class="bg-white text-black p-6 rounded-xl">
+        <input type="text" placeholder="Nama Anda" class="border p-3 w-full rounded mb-4" required>
+        <select class="border p-3 w-full rounded mb-4" required>
+          <option value="">Konfirmasi Kehadiran</option>
+          <option>Hadir</option>
+          <option>Tidak Hadir</option>
+        </select>
+        <textarea placeholder="Ucapan & Doa" class="border p-3 w-full rounded mb-4" rows="4"></textarea>
+        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-500 transition">Kirim</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 bg-gray-900 text-white">
+    <p>© 2025 Z2n Wedding. Dengan cinta 💕 Thelanny & Yuhda.</p>
+  </footer>
+
+</body>
+</html>
